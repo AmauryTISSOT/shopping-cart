@@ -1,10 +1,17 @@
-import './App.css';
+import styled from "styled-components";
+import React from "react";
+import Header from "./components/Header";
+
+const Container = styled.div`
+
+`;
+
 
 function App() {
   return (
-    <div className="App">
-      hello world ! 
-    </div>
+    <Container>
+      <Header/>
+    </Container>
   );
 }
 
