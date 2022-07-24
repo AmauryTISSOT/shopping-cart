@@ -18,11 +18,12 @@ const Container = styled.div`
 const Logo = styled.h1`
   font-size: 20 px;
   font-weight: bold;
-  margin-left: 30px;
+  margin-left: 50 px;
+  margin-right:50 px;
 `;
 
 const ListItems = styled.li`
-  margin-left: 40px;
+  margin-left: 30px;
   cursor: pointer;
 `;
 
@@ -32,6 +33,7 @@ const List = styled.ul`
   align-items: center;
   list-style: none;
   font-weight: bold;
+  padding-left: 50px;
 
   ${ListItems}:hover {
     color: lightblue;
