@@ -3,9 +3,9 @@
 ## Component list : 
 
 ### Home page : 
-- [ ] Header with a logo link to the home page ;  5 list link ; search bar ; language selector ; account icon ; shopping icon ; cart icon.
+- [*] Header with a logo link to the home page ;  5 list link ; search bar ; language selector ; account icon ; shopping icon ; cart icon.
 - [ ] The cart icon should be a sub component who display the number of items in the cart.
-- [ ] Carrousel animation.
+- [*] Carrousel animation.
 - [ ] Destructured grid with products links.
 - [ ] Structured grid with products links.
 - [ ] Footer with contact info, social media link, newsletter link, shipping policy, with a background image.
