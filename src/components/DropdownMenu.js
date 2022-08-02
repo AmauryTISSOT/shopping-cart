@@ -7,7 +7,7 @@ const DropdownTitle = styled.div`
 
 const DropdownContent = styled.div`
   position: absolute;
-  top: 80px;
+  top: 60px;
   left: 0px;
   right: 0px;
   background-color: #f9f9f9;
