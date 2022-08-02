@@ -5,6 +5,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import MenuIcon from '@mui/icons-material/Menu';
+import DropdownMenu from "./DropdownMenu";
 
 
 const Container = styled.div`
@@ -13,6 +14,7 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  width: 100 vw;
 `;
 
 const Logo = styled.h1`
@@ -64,7 +66,7 @@ const Header = () => {
       <Logo>Apacks</Logo>
       <Right>
         <List>
-            <ListItems>SHOP</ListItems>
+            <ListItems><DropdownMenu name='SHOP' list={['Shelters', 'Backpacks', 'Sleeping Bags', 'Clothing', 'Accessories', 'Bargains' ]}/></ListItems>
             <ListItems>ADVENTURES</ListItems>
             <ListItems>ARTICLES</ListItems>
             <ListItems>GIVING BACK TOGETHER</ListItems>
