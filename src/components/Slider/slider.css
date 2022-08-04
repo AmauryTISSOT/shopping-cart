@@ -5,3 +5,7 @@
   display: flex;
   justify-content: center;
 }
+
+.nav.default-nav {
+  margin: 50px;
+}
