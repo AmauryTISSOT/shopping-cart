@@ -7,13 +7,12 @@ import backpack1 from "../images/backpack1.jpg";
 import acces1 from "../images/acces1.jpg";
 
 const Container = styled.div`
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
-  padding: 5px;
 `;
 
 const Item1 = styled.div`
