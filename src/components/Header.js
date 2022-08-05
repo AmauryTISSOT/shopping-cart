@@ -6,6 +6,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import MenuIcon from "@mui/icons-material/Menu";
 import DropdownMenu from "./DropdownMenu";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: 10%;
@@ -15,6 +16,12 @@ const Container = styled.div`
   padding: 10px;
   width: 100 vw;
   background-color: white;
+`;
+
+const StyledLink = styled(Link)`
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 `;
 
 const Logo = styled.h1`
@@ -62,7 +69,9 @@ const Left = styled.div`
 const Header = () => {
   return (
     <Container>
-      <Logo>Apacks</Logo>
+      <Logo>
+        <StyledLink to="/">Apacks</StyledLink>
+      </Logo>
       <Right>
         <List>
           <ListItems>
@@ -77,6 +86,10 @@ const Header = () => {
                 "Bargains",
               ]}
             />
+          </ListItems>
+          <ListItems>
+            {" "}
+            <StyledLink to="/Products">PRODUCTS</StyledLink>
           </ListItems>
           <ListItems>ADVENTURES</ListItems>
           <ListItems>ARTICLES</ListItems>
@@ -95,7 +108,9 @@ const Header = () => {
           <PersonIcon />
         </Icon>
         <Icon>
-          <ShoppingCartIcon />
+          <StyledLink to="/Cart">
+            <ShoppingCartIcon />
+          </StyledLink>
         </Icon>
         <Icon>
           <MenuIcon />
