@@ -8,7 +8,7 @@
 - [*] Carrousel animation.
 - [*] Destructured grid with products links.
 - [ ] Structured grid with products links.
-- [ ] Footer with contact info, social media link, newsletter link, shipping policy, with a background image.
+- [*] Footer with contact info, social media link, newsletter link, shipping policy, with a background image.
 
 ### Product page : 
 - [ ] Product's description component with : price, quick description.
