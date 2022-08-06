@@ -11,7 +11,7 @@
 - [*] Footer with contact info, social media link, newsletter link, shipping policy, with a background image.
 
 ### Product page : 
-- [ ] Product's description component with : price, quick description.
+- [*] Product's description component with : price, quick description.
 - [ ] "Add to cart" component with quantity, color(optional) and add to cart button.
 - [ ] Product's image with optional carousel.
 - [ ] Product's description component.
